@@ -1,0 +1,20 @@
+.pokemon-main {
+  height: 100%;
+}
+
+.pokemon-avatar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pokemon-avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.pokemon-name {
+  color: #666;
+  line-height: 50px;
+  margin-left: 5px;
+  font-size: 12px;
+}

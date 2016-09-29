@@ -1,0 +1,15 @@
+<view class="pokemon-main">
+  <view class="pokemon-avatar-container">
+    <image class="pokemon-avatar" src="{{'../../images/' + pokemon.name + '.png'}}"></image>
+  </view>
+
+  <view class="pokemon-name">ID: {{pokemon.id}}</view>
+  <view class="pokemon-name">Name: {{pokemon.name}}</view>
+  <view class="pokemon-name">Height: {{pokemon.height}}</view>
+  <view class="pokemon-name">Weight: {{pokemon.weight}}</view>
+  <view class="pokemon-name">Base Experience: {{pokemon.base_experience}}</view>
+
+  <loading hidden="{{hidden}}">
+    loading...
+  </loading>
+</view>

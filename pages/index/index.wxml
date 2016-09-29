@@ -1,0 +1,16 @@
+<view class="pokemons-main">
+  <scroll-view class="pokemons-list" style="height:100%" scroll-y="true" bindscrolltolower="onHitBottom">
+    <block wx:for="{{pokemons}}">
+      <view class="pokemons-item" index="{{index}}" id="{{item.name}}" catchtap="pokemonDetail">
+        <view class="pokemon">
+          <image class="pokemon-avatar" src="{{'../../images/' + item.name + '.png'}}"></image>
+          <view class="pokemon-name">{{index + 1}} {{item.name}}</view>
+        </view>
+      </view>
+    </block>
+  </scroll-view>
+
+  <loading hidden="{{hidden}}">
+    loading...
+  </loading>
+</view>

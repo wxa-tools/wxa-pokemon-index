@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/pokemon/pokemon"
+  ],
+  "window":{
+    "backgroundTextStyle":"black",
+    "backgroundColor":"#fff",
+    "navigationBarBackgroundColor":"#000",
+    "navigationBarTitleText":"Pokémon Index",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":"true"
+  }
+}
